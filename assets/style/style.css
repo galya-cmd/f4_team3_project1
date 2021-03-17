@@ -1,0 +1,26 @@
+.hi_tittle{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    margin: 0 0 22px 0;
+
+color: #8D8D8D;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 1170px;
+    margin: 0px auto;
+}
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.content{
+    flex: 1 1 auto;
+}
+.hi_row{
+    display: flex;
+    justify-content: space-between;
+}
