@@ -1,0 +1,70 @@
+body {
+    font-size: 12px;
+}
+
+
+ /* Блок "Основные задачи" начало  */
+.goals {
+    padding: 7.5rem;
+} 
+
+.goals__title,
+.projects__title {
+    padding: 3.75rem;
+    color: #BDBDBD;
+}
+
+.goals__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.goals h2,
+.projects h2 {
+    font-size: 4rem;
+}
+
+.goals p {
+    max-width: 65%;
+    padding: 1.875rem;
+    font-size: 1.375rem;
+}
+
+.goals__one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goals__two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects img {
+    max-width: 100%;
+}
+
+.projects__flex1,
+.projects__flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.875rem;
+}
+
+.projects__flex1 img {
+    padding-bottom: 1.875rem;
+}
+
+.projects {
+    gap: 1.875rem;
+}
+
+.projects__btn {
+    text-align: right;
+    padding-top: 3.75rem;
+}
+/* Блок "Основные задачи" конец  */
