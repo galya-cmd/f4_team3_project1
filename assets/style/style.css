@@ -64,10 +64,7 @@ body {
 }
 /* ----------- */
 
- /* Блок "Основные задачи" начало  */
-.goals {
-    padding: 7.5rem;
-} 
+/* "Основные задачи" и "Наши проекты" начало   */
 
 .goals__title,
 .projects__title {
@@ -96,14 +93,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 35%;
 }
 
 .goals__two {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 .projects img {
@@ -113,22 +110,133 @@ body {
 .projects__flex1,
 .projects__flex2{
     display: flex;
+    max-width: 90vw;
     justify-content: space-between;
-    align-items: center;
+    margin: auto;
     gap: 1.875rem;
 }
 
 .projects__flex1 img {
     padding-bottom: 1.875rem;
+    width: 100%;
 }
 
 .projects {
     gap: 1.875rem;
+    
+}
+
+.projects__container {
+    position: relative;
+    width: 100%;
+}
+
+.projects__container__img-title {
+    position: absolute;
+    width: 60%;
+    top: 23%;
+    left: 19%;
+    color: #FFFFFF; 
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: left;
+}
+
+.projects__container__img-btn {
+    position: absolute;
+    top: 71%;
+    left: 19%;
+    color: #FFFFFF; 
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+}
+
+.projects__container__img-btn img {
+    max-width: 15%;
+    position: absolute;
+    top: 40%;
+    left: 99%;
 }
 
 .projects__btn {
     text-align: right;
+    padding-right: 4.3rem;
     padding-top: 3.75rem;
     padding-bottom: 7.5rem;
 }
-/* Блок "Основные задачи" конец  */
+/* "Основные задачи" и "Наши проекты" конец  */
+
+/* Футер начало */
+
+.content-grow {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+footer {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.footer-flex {
+    max-width: 100vw;
+    height: 450px;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-flex p {
+    font-size: 1.167rem;
+}
+
+.footer-flex h3 {
+    font-size: 1.333rem;
+    font-weight: bold;
+    padding-bottom: 2.083rem;
+}
+
+.footer-flex__item2 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+}
+
+.footer-flex__item2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-flex__item3 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+    width: 20%;
+}
+
+.footer-flex__item3 span {
+    padding-right: 10px;
+}
+
+.footer-flex__item4 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+}
+
+.footer-flex__inner-flex img {
+    padding-right: 1.667rem;
+}
+
+.footer__copyright {
+    background-color: #2C2C2C;
+    border-top: 1px solid #C8C8C8;
+    max-width: 100vw;
+    height: 7vh;
+    color: #C8C8C8;
+    text-align: center;
+    padding-top: 12px; 
+}
+/* Футер конец */
