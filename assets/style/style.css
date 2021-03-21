@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 .hi_tittle{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 64px;
@@ -115,3 +116,325 @@ body {
 }
 <!-- Блок "Основные задачи" конец -->
 >>>>>>> c139057b15956f460b0539830c58d2b77abf858f
+=======
+body {
+    font-size: 12px;
+    
+}
+/* navbar */
+.navbar {
+    display: flex;
+    height: 102px;
+}
+.navbar_links{
+    display: flex;
+    justify-content: space-around;
+    width: 700px;
+    margin-right: 250px;
+}
+.navbar_links a{
+    color: black;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.logo-img{
+    height: 44px;
+    margin-left: 150px;
+}
+/* navbar end */
+/* начало */
+.main{
+    display: flex;
+    margin-right: 100px;
+    align-content: center;
+}
+ .left{
+    -ms-flex: 30%;
+    flex: 30%;
+    padding: 300px 40px 0px 150px;
+} 
+.nurtown-text{
+    width: 380px;
+    height: 128px;
+    
+}
+.container {
+    position: relative;
+    width: 100%;
+    -ms-flex: 70%;
+    flex: 70%;
+}
+
+.container .btn {
+    position: absolute;
+    width: 221px;
+    height: 71px;
+    top: 92%;
+    left: 1.5%;
+    background-color: white;
+    color: black; 
+    font-size: 16px;
+    letter-spacing: 3px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 0%;
+}
+/* ----------- */
+
+/* "Основные задачи" и "Наши проекты" начало   */
+
+.goals__title,
+.projects__title {
+    padding: 3.75rem;
+    color: #BDBDBD;
+}
+
+.goals__flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.goals h2,
+.projects h2 {
+    font-size: 4rem;
+}
+
+.goals p {
+    max-width: 70%;
+    padding: 1.875rem;
+    font-size: 1.375rem;
+}
+
+.goals__one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35%;
+}
+
+.goals__two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+}
+
+.projects img {
+    max-width: 100%;
+}
+
+.projects__flex1,
+.projects__flex2{
+    display: flex;
+    max-width: 90vw;
+    justify-content: space-between;
+    margin: auto;
+    gap: 1.875rem;
+}
+
+.projects__flex1 img {
+    padding-bottom: 1.875rem;
+    width: 100%;
+}
+
+.projects {
+    gap: 1.875rem;
+    
+}
+
+.projects__container {
+    position: relative;
+    width: 100%;
+}
+
+.projects__container__img-title {
+    position: absolute;
+    width: 60%;
+    top: 23%;
+    left: 19%;
+    color: #FFFFFF; 
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: left;
+}
+
+.projects__container__img-btn {
+    position: absolute;
+    top: 71%;
+    left: 19%;
+    color: #FFFFFF; 
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+}
+
+.projects__container__img-btn img {
+    max-width: 15%;
+    position: absolute;
+    top: 40%;
+    left: 99%;
+}
+
+.projects__btn {
+    text-align: right;
+    padding-right: 4.3rem;
+    padding-top: 3.75rem;
+    padding-bottom: 7.5rem;
+}
+/* "Основные задачи" и "Наши проекты" конец  */
+
+/* Футер начало */
+
+.content-grow {
+    display: flex;
+    flex: 1 0 auto;
+}
+
+footer {
+    display: flex;
+    flex: 0 0 auto;
+}
+
+.footer-flex {
+    max-width: 100vw;
+    height: auto;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-flex p {
+    font-size: 1.167rem;
+}
+
+.footer-flex h3 {
+    font-size: 1.333rem;
+    font-weight: bold;
+    padding-bottom: 2.083rem;
+}
+
+.footer-flex__item2 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+}
+
+.footer-flex__item2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer-flex__item3 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+    width: 20%;
+}
+
+.footer-flex__item3 span {
+    padding-right: 10px;
+}
+
+.footer-flex__item4 {
+    align-self: flex-start;
+    padding-top: 4.833rem;
+}
+
+.footer-flex__inner-flex img {
+    padding-right: 1.667rem;
+}
+
+.footer__copyright {
+    background-color: #2C2C2C;
+    border-top: 1px solid #C8C8C8;
+    max-width: 100vw;
+    height: 7vh;
+    color: #C8C8C8;
+    text-align: center;
+    padding-top: 12px; 
+}
+
+@media all and (max-width: 850px){
+    .footer-flex {
+        height: auto;
+        flex-direction: column;
+        text-align: center; 
+        justify-content: flex-start;
+    }
+
+    .footer-flex__item1 {
+        order: 4;
+        padding-top: 3rem;
+        align-self: center;
+    }
+
+    .footer-flex__item2 {
+        order: 2;
+        align-self: center;
+    }
+
+    .footer-flex__item3 {
+        order: 3;
+        width: 100vw;
+        align-self: center;
+    }
+
+    .footer-flex__item4 {
+        align-self: center;
+    }
+}
+
+/* Футер конец */
+
+/* Страница "Наши проекты" начало */
+    .our-projects h1 {
+        width: 30%;
+        font-size: 4rem;
+        padding-left: 2.7rem; 
+        padding-bottom: 2rem;
+        padding-top: 3rem;
+        color: #C8C8C8;
+    }
+
+    .our-projects span {
+        font-weight: bold;
+        color: #333;
+    }
+
+    .our-projects img {
+        display: inline-block;
+        padding-bottom: 2rem;
+        max-width: 50%;
+    }
+
+    .our-projects__flex {
+        display: flex;
+        align-content: flex-start;
+        justify-content: center; 
+    }
+
+    .our-projects__text {
+        align-self: flex-start;
+        justify-self: center;
+        width: 50%;
+        padding: 2rem;
+    }
+
+    .our-projects__text p {
+        font-size: 1.2rem;
+        color: #000;
+        padding-top: 1rem;
+        padding-bottom: 4rem;
+    }
+
+    .our-projects__text h2 {
+        font-size: 3rem;
+        color: #C8C8C8;
+    }
+/* Страница "Наши проекты" конец */
+>>>>>>> a28abdda4ac00f9d324fca695c8901c559299258
