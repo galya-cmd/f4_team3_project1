@@ -1,3 +1,8 @@
+body {
+    font-size: 12px;
+}
+
+
 .hi_tittle {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 64px;
@@ -91,77 +96,7 @@
     flex-direction: column;
     justify-content: space-between;
 }
- /* Блок "Основные задачи" начало  */
-.goals {
-    padding: 7.5rem;
-} 
 
-.goals__title,
-.projects__title {
-    padding: 3.75rem;
-    color: #BDBDBD;
-}
-
-.goals__flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.goals h2,
-.projects h2 {
-    font-size: 4rem;
-}
-
-.goals p {
-    max-width: 70%;
-    padding: 1.875rem;
-    font-size: 1.375rem;
-}
-
-.goals__one {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%;
-}
-
-.goals__two {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 50%;
-}
-
-.projects img {
-    max-width: 100%;
-}
-
-.projects__flex1,
-.projects__flex2{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1.875rem;
-}
-
-.projects__flex1 img {
-    padding-bottom: 1.875rem;
-}
-
-.projects {
-    gap: 1.875rem;
-}
-
-.projects__btn {
-    text-align: right;
-    padding-top: 3.75rem;
-    padding-bottom: 7.5rem;
-}
-body {
-    font-size: 12px;
-    
-}
 /* navbar */
 .navbar {
     display: flex;
@@ -225,6 +160,10 @@ body {
 /* ----------- */
 
 /* "Основные задачи" и "Наши проекты" начало   */
+
+.goals {
+    padding: 7.5rem;
+} 
 
 .goals__title,
 .projects__title {
@@ -331,6 +270,7 @@ body {
 
 .content-grow {
     display: flex;
+    flex-direction: column;
     flex: 1 0 auto;
 }
 
