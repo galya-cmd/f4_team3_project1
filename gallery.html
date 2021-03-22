@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .galary__imj {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 1.875rem;
+        padding: 3.75rem;
+
+
+    }
+
+
+    .galary__title {
+        padding: 135px;
+    }
+
+    .hr {
+        padding: 1.937rem 0 1.937rem 0;
+    }
+
+    /* navbar */
+    .navbar {
+        display: flex;
+        height: 102px;
+    }
+
+    .navbar_links {
+        display: flex;
+        justify-content: space-around;
+        width: 700px;
+        margin-right: 250px;
+    }
+
+    .navbar_links a {
+        color: black;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+
+    .logo-img {
+        height: 44px;
+        margin-left: 150px;
+    }
+
+    /* navbar end */
+
+    /* Футер начало */
+
+    .content-grow {
+        display: flex;
+        flex: 1 0 auto;
+    }
+
+    footer {
+        display: flex;
+        flex: 0 0 auto;
+    }
+
+    .footer-flex {
+        max-width: 100vw;
+        height: auto;
+        margin-top: 2rem;
+        padding: 2rem;
+        background-color: #2C2C2C;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .footer-flex p {
+        font-size: 1.167rem;
+    }
+
+    .footer-flex h3 {
+        font-size: 1.333rem;
+        font-weight: bold;
+        padding-bottom: 2.083rem;
+    }
+
+    .footer-flex__item2 {
+        align-self: flex-start;
+        padding-top: 4.833rem;
+    }
+
+    .footer-flex__item2 a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    .footer-flex__item3 {
+        align-self: flex-start;
+        padding-top: 4.833rem;
+        width: 20%;
+    }
+
+    .footer-flex__item3 span {
+        padding-right: 10px;
+    }
+
+    .footer-flex__item4 {
+        align-self: flex-start;
+        padding-top: 4.833rem;
+    }
+
+    .footer-flex__inner-flex img {
+        padding-right: 1.667rem;
+    }
+
+    .footer__copyright {
+        background-color: #2C2C2C;
+        border-top: 1px solid #C8C8C8;
+        max-width: 100vw;
+        height: 7vh;
+        color: #C8C8C8;
+        text-align: center;
+        padding-top: 12px;
+    }
+
+    @media all and (max-width: 850px) {
+        .footer-flex {
+            height: auto;
+            flex-direction: column;
+            text-align: center;
+            justify-content: flex-start;
+        }
+
+        .footer-flex__item1 {
+            order: 4;
+            padding-top: 3rem;
+            align-self: center;
+        }
+
+        .footer-flex__item2 {
+            order: 2;
+            align-self: center;
+        }
+
+        .footer-flex__item3 {
+            order: 3;
+            width: 100vw;
+            align-self: center;
+        }
+
+        .footer-flex__item4 {
+            align-self: center;
+        }
+    }
+
+    /* Футер конец */
+</style>
+
+<body>
+
+    <header>
+        <div class="navbar">
+            <img class="logo-img" alt="logo" src="assets/img/logo.png">
+            <div class="navbar_links">
+                <a href="#">ГЛАВНАЯ</a>
+                <a href="#">ГАЛЕРЕЯ</a>
+                <a href="projects.html">ПРОЕКТЫ</a>
+                <a href="#">СЕРТИФИКАТЫ</a>
+                <a href="#">КОНТАКТЫ</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!--Галерея начало-->
+    <section>
+        <img class="galary__title" src="assets/img/Frame 12 (1).png" alt="">
+        <hr width="1170px" color="#F2F2F2">
+        <div class="galary__imj">
+
+            <img class="galary__imj_border" src="assets/img/image 34 (1).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 23 (3).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 24 (1).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 25 (1).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 26 (1).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 27 (1).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 28 (1).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 29 (1).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 30 (1).png" alt="">
+
+
+            <img class="galary__imj_border" src="assets/img/Rectangle 31 (1).png" alt="">
+
+
+        </div>
+        <!--Галерея конец-->
+
+        <!-- Футер начало -->
+        <footer>
+            <div class="footer-flex">
+                <div class="footer-flex__item1">
+                    <img src="assets/img/footer__logo.svg" alt="">
+                </div>
+                <div class="footer-flex__item2">
+                    <h3>Информация</h3>
+                    <p><a href="#">Главная</a></p>
+                    <p><a href="#">Галерея</a></p>
+                    <p><a href="projects.html">Проекты</a></p>
+                    <p><a href="#">Сертификаты</a></p>
+                    <p><a href="#">Контакты</a></p>
+                </div>
+                <div class="footer-flex__item3">
+                    <h3>Контакты</h3>
+                    <p><span><img src="assets/img/footer__map.png" alt=""></span>100000,
+                        Республика Казахстан, <br>
+                        г. Караганда, ул. Телевизионная 10</p>
+                    <p><span><img src="assets/img/footer__handset.png" alt=""></span>+7
+                        (701) 77 76 811</p>
+                    <p><span><img src="assets/img/footer__email.png" alt=""></span>
+                        Galym.sultanov@mail.ru</p>
+                </div>
+                <div class="footer-flex__item4">
+                    <h3>Социальные сети</h3>
+                    <div class="footer-flex__inner-flex">
+                        <img src="assets/img/footer__facebook.png" alt="">
+                        <img src="assets/img/footer__twitter.png" alt="">
+                        <img src="assets/img/footer__linkedin.png" alt="">
+                        <img src="assets/img/footer__pininterest.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>© 2019 Digital Project. Все права защищены.</p>
+            </div>
+        </footer>
+        <!-- Футер конец -->
+
+        <!-- Скрипты для бутстрапа начало -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+        </script>
+        <!-- Скрипты для бутстрапа конец -->
+
+
+</body>
+
+</html>
