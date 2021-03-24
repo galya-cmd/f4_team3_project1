@@ -145,6 +145,7 @@
 
 .goals__title,
 .projects__title {
+    text-align: center;
     padding: 3.75rem;
     color: #BDBDBD;
 }
@@ -180,8 +181,63 @@
     max-width: 40%;
 }
 
-.projects img {
-    max-width: 100%;
+@media all and (max-width: 1443px){
+    .goals__one {
+        max-width: 50%;
+    }
+    
+    .goals__two {
+        max-width: 50%;
+    }
+
+}
+
+@media all and (max-width: 1100px){
+
+    .goals__title {
+        text-align: left;
+    }
+
+    .goals__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .goals__one {
+        max-width: 80%;
+        padding-bottom: 6rem;
+    }
+    
+    .goals__two {
+        max-width: 80%;
+    }
+
+}
+
+@media all and (max-width: 600px) {
+
+    .goals {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .goals__title {
+        padding-left: 6rem;
+    }
+
+}
+
+@media all and (max-width: 450px) {
+    .goals__title {
+        padding-left: 3rem;
+    }
+
+    .goals__one img, 
+    .goals__two img {
+        max-width: 25%;
+    }
+    
 }
 
 .projects__flex1,
