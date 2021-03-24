@@ -8,6 +8,7 @@
 
 }
 
+
 .form__message_text {
     font-size: 14px;
     border: none;
@@ -56,6 +57,16 @@
     justify-content: end;
     width: 749px;
     height: 369px;
+}
+
+.hi_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hi__image img {
+    max-width: 100%;
 }
 
 
