@@ -59,14 +59,14 @@
     height: 369px;
 }
 
-.hi_list {
+.form__img {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .hi__image img {
-    max-width: 100%;
+    max-width: 60%;
 }
 
 
