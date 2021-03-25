@@ -69,27 +69,31 @@
     max-width: 60%;
 }
 
-
-
-
-
 /* Блок Гали конец */
 
 /* navbar */
 .navbar {
     display: flex;
+    overflow: hidden;
     height: 102px;
 }
 .navbar_links{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     width: 700px;
-    margin-right: 250px;
+    margin-right: 185px;
 }
 .navbar_links a{
     color: black;
-    text-decoration: none;
     margin-right: 5px;
+}
+.navbar_links a:hover{
+    color: black;
+    text-decoration: underline overline;
+}
+.navbar_links a:active{
+    text-decoration: underline overline;
 }
 
 .logo-img{
@@ -100,24 +104,22 @@
 /* начало */
 .main{
     display: flex;
-    margin-right: 100px;
     align-content: center;
+    flex-wrap: wrap;
 }
- .left{
-    -ms-flex: 30%;
-    flex: 30%;
+.left{
     padding: 300px 40px 0px 150px;
+    flex: 30%
 } 
 .nurtown-text{
     width: 380px;
     height: 128px;
-    
+    margin-bottom: 40px;
 }
 .container {
     position: relative;
     width: 100%;
-    -ms-flex: 70%;
-    flex: 70%;
+    flex: 47%
 }
 
 .container .btn {
@@ -131,12 +133,58 @@
     font-size: 16px;
     letter-spacing: 3px;
     border: none;
-    cursor: pointer;
     text-align: center;
     border-radius: 0%;
 }
 /* ----------- */
-
+/* about company */
+.about_company{
+    display: flex;
+    margin: 150px 100px 0px 150px;
+    align-content: center;
+    background-color: #FBFBFB;
+    flex-wrap: wrap;
+}
+.about_company_img{
+    display: flex;
+    padding: 25px 25px 25px 100px;
+    flex-wrap: wrap;
+}
+.about_company_img_1{
+    width: 270px;
+    margin-right: 25px;
+}
+.rectangle_8{
+    margin-bottom: 25px;
+}
+.rectangle_9{
+    margin-top: 40px;
+    height: 345px;
+}
+.about_company_text__title{
+    font-size: 60px;
+    padding-top: 1.5rem;
+    color: #BDBDBD;
+}
+.about_company_text__info{
+    width: 400px;
+    height: 200px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.about_company_text__btn{
+    width: 221px;
+    height: 71px;
+    background-color: white;
+    color: black; 
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    border-radius: 0%;
+    margin-bottom: 25px;
+}
+/* ------------------ */
 /* "Основные задачи" и "Наши проекты" начало   */
 
 .goals {
