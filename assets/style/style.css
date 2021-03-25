@@ -1,8 +1,8 @@
 /* Блок Гали начало */
 .form__title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 64px;
-    font-weight: 300;
+    font-size: 4em;
+    
     margin: 0 0 22px 0;
     color: #8D8D8D;
 
@@ -10,20 +10,20 @@
 
 
 .form__message_text {
-    font-size: 14px;
+    font-size: 0.875em;
     border: none;
     background-color: #F3F3F3;
-    width: 391px;
-    height: 46px;
+    width: 31em;
+    height: 2.9em;
     margin: 0 0 10px 0;
     color: #8D8D8D;
 
 }
 
 .form__text {
-    font-size: 14px;
+    font-size: 0,800em;
     letter-spacing: 0, 03em;
-    padding: 0 175px;
+    padding: 0 100px;
 }
 
 .textarea {
@@ -31,8 +31,8 @@
     border: none;
     resize: none;
     margin-top: 10px;
-    width: 391px;
-    height: 147px;
+    width: 60%;
+    height: 40%;
     background-color: #F3F3F3;
     font-size: 14px;
 }
@@ -41,8 +41,8 @@
     display: flex;
     box-sizing: border-box;
     margin: 0px auto;
-    width: 1170px;
-    height: 603px;
+    width: 60%;
+    height: 30%;
 
 }
 
@@ -54,18 +54,20 @@
 
 .form__img {
     display: flex;
-    justify-content: end;
-    width: 749px;
-    height: 369px;
+    
 }
 
 .form__img {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin-top: 8%;
+    width: 40%;
+    height: 60%;
 }
 
-.hi__image img {
+.form__image img {
+    max-width: 60%;
+}
+.form__message{
     max-width: 60%;
 }
 
@@ -586,3 +588,5 @@ footer {
         padding: 1.937rem 0 1.937rem 0;
     }
     /* Галерея конец */
+    /* Сертификаты начало */
+    
