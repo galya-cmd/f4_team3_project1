@@ -1,12 +1,12 @@
 /* navbar */
 .navbar {
     display: flex;
-    overflow: hidden;
     height: 102px;
 }
 .navbar_links{
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
     justify-content: space-around;
     width: 700px;
     margin-right: 185px;
@@ -25,18 +25,20 @@
 
 .logo-img{
     height: 44px;
-    margin-left: 150px;
+    width: 70px;
+    margin-left: 10%;
 }
 /* navbar end */
-/* начало */
+/* main page*/
 .main{
     display: flex;
     align-content: center;
     flex-wrap: wrap;
 }
 .left{
-    padding: 300px 40px 0px 150px;
-    flex: 30%
+    margin-left: 10%;
+    padding: 300px 0 0 0;
+    flex: 20%
 } 
 .nurtown-text{
     width: 380px;
@@ -67,7 +69,7 @@
 /* about company */
 .about_company{
     display: flex;
-    margin: 150px 100px 0px 150px;
+    margin: 150px 7% 0px 10%;
     align-content: center;
     background-color: #FBFBFB;
     flex-wrap: wrap;
@@ -295,7 +297,7 @@ text-align: right;
 .form__container{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 25px 25px 150px;
+    margin: 0 25px 25px 10%;
 }
 .form__title {
     font-family: Arial, Helvetica, sans-serif;
@@ -344,7 +346,7 @@ text-align: right;
 }
 
 /* Блок Гали конец */
-
+/* main page end */
 /* Футер начало */
 
 .content-grow {
@@ -472,31 +474,31 @@ footer {
         color: #333;
     }
 
-    .our-projects img {
-        display: inline-block;
-        padding-bottom: 2rem;
-        max-width: 50%;
-    }
+.our-projects img {
+    display: inline-block;
+    padding-bottom: 2rem;
+    max-width: 50%;
+}
 
-    .our-projects__flex {
-        display: flex;
-        align-content: flex-start;
-        justify-content: center; 
-    }
+.our-projects__flex {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center; 
+}
 
-    .our-projects__text {
-        align-self: flex-start;
-        justify-self: center;
-        width: 50%;
-        padding: 2rem;
-    }
+.our-projects__text {
+    align-self: flex-start;
+    justify-self: center;
+    width: 50%;
+    padding: 2rem;
+}
 
-    .our-projects__text p {
-        font-size: 1.2rem;
-        color: #000;
-        padding-top: 1rem;
-        padding-bottom: 4rem;
-    }
+.our-projects__text p {
+    font-size: 1.2rem;
+    color: #000;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
 
     .our-projects__text h2 {
         font-size: 3rem;
@@ -518,47 +520,96 @@ footer {
 /* Страница "Наши проекты" конец */
 
 
-    /*Галерея начало*/
-    .galary__imj {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 1.875rem;
-        padding: 3.75rem;
-    }
+/*Галерея начало*/
+.galary__imj {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.875rem;
+    padding: 3.75rem;
+}
 
 
-    .galary__title {
-        padding: 135px;
-    }
+.galary__title {
+    padding: 135px;
+}
 
-    .hr {
-        padding: 1.937rem 0 1.937rem 0;
-    }
-    /* Галерея конец */
-    /* Сертификаты начало */
-    
-    /* Паркинг начало */
+.hr {
+    padding: 1.937rem 0 1.937rem 0;
+}
+/* Галерея конец */
+/* Сертификаты начало */
 
-    .parking__start-pic,
-    .parking__end-pic {
-        display: block;
-        text-align: center;
-        padding: 2.5rem;
-    }
+/* Паркинг начало */
 
+.parking__start-pic,
+.parking__end-pic {
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+}
 
+.parking__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
-    .parking__flex {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .parking__flex p {
-        max-width: 38%;
-    }
-
-
-
-    /* Паркинг конец */
+.parking__flex p {
+    max-width: 38%;
+}
+/* Паркинг конец */
+/* contacts begin */
+.contact_information{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact_infornation__contacts{
+    width: 490px;
+    margin-left: 10%;
+}
+.contact_infornation__contacts__contact-img{
+    width: 481px;
+    height: 128px;
+    margin: 100px 0 50px 0;
+}
+.contact_infornation__contacts__digital_project{
+    font-size: 18px;
+    font-weight: bold;
+}
+.contact_infornation__contacts__town{
+    display: block;
+    color: rgb(51, 51, 51);
+    margin-bottom: 20px;
+}
+.contact_infornation__contacts__phone{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.contact_infornation__contacts__e-mail{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.contact_infornation__contacts__btn{
+    width: 221px;
+    height: 71px;
+    background-color: #2C2C2C;;
+    color: white; 
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    border-radius: 0%;
+    margin-bottom: 25px;
+}
+.contacts_map{
+    width: 800px;
+    height: 540px;
+    margin: 40px 0 0 2%;
+}
+/* contacts end */
