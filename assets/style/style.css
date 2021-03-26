@@ -590,3 +590,27 @@ footer {
     /* Галерея конец */
     /* Сертификаты начало */
     
+    /* Паркинг начало */
+
+    .parking__start-pic,
+    .parking__end-pic {
+        display: block;
+        text-align: center;
+        padding: 2.5rem;
+    }
+
+
+
+    .parking__flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .parking__flex p {
+        max-width: 38%;
+    }
+
+
+
+    /* Паркинг конец */
