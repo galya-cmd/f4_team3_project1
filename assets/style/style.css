@@ -1,12 +1,12 @@
 /* navbar */
 .navbar {
     display: flex;
-    overflow: hidden;
     height: 102px;
 }
 .navbar_links{
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
     justify-content: space-around;
     width: 700px;
     margin-right: 185px;
@@ -26,7 +26,7 @@
 .logo-img{
     height: 44px;
     width: 70px;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 /* navbar end */
 /* main page*/
@@ -36,8 +36,9 @@
     flex-wrap: wrap;
 }
 .left{
-    padding: 300px 40px 0px 150px;
-    flex: 30%
+    margin-left: 10%;
+    padding: 300px 0 0 0;
+    flex: 20%
 } 
 .nurtown-text{
     width: 380px;
@@ -68,7 +69,7 @@
 /* about company */
 .about_company{
     display: flex;
-    margin: 150px 100px 0px 150px;
+    margin: 150px 7% 0px 10%;
     align-content: center;
     background-color: #FBFBFB;
     flex-wrap: wrap;
@@ -281,7 +282,7 @@
 .form__container{
     display: flex;
     flex-wrap: wrap;
-    margin: 0 25px 25px 150px;
+    margin: 0 25px 25px 10%;
 }
 .form__title {
     font-family: Arial, Helvetica, sans-serif;
@@ -525,13 +526,14 @@ footer {
 }
 /* Паркинг конец */
 /* contacts begin */
-.contact_infornation{
+.contact_information{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
 }
 .contact_infornation__contacts{
     width: 490px;
-    margin-left: 150px;
+    margin-left: 10%;
 }
 .contact_infornation__contacts__contact-img{
     width: 481px;
@@ -539,23 +541,23 @@ footer {
     margin: 100px 0 50px 0;
 }
 .contact_infornation__contacts__digital_project{
-    font-size: 30px;
+    font-size: 18px;
     font-weight: bold;
 }
 .contact_infornation__contacts__town{
     display: block;
     color: rgb(51, 51, 51);
-    margin-bottom: 43px;
+    margin-bottom: 20px;
 }
 .contact_infornation__contacts__phone{
     display: block;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 .contact_infornation__contacts__e-mail{
     display: block;
-    margin-bottom: 32px;
+    margin-bottom: 10px;
     font-size: 16px;
     color: rgb(51, 51, 51);
 }
@@ -570,5 +572,10 @@ footer {
     text-align: center;
     border-radius: 0%;
     margin-bottom: 25px;
+}
+.contacts_map{
+    width: 800px;
+    height: 540px;
+    margin: 40px 0 0 2%;
 }
 /* contacts end */
