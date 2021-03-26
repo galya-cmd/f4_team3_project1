@@ -25,10 +25,11 @@
 
 .logo-img{
     height: 44px;
+    width: 70px;
     margin-left: 150px;
 }
 /* navbar end */
-/* начало */
+/* main page*/
 .main{
     display: flex;
     align-content: center;
@@ -329,7 +330,7 @@
 }
 
 /* Блок Гали конец */
-
+/* main page end */
 /* Футер начало */
 
 .content-grow {
@@ -437,94 +438,137 @@ footer {
 /* Футер конец */
 
 /* Страница "Наши проекты" начало */
-    .our-projects h1 {
-        width: 30%;
-        font-size: 4rem;
-        padding-left: 2.7rem; 
-        padding-bottom: 2rem;
-        padding-top: 3rem;
-        color: #C8C8C8;
-    }
+.our-projects h1 {
+    width: 30%;
+    font-size: 4rem;
+    padding-left: 2.7rem; 
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    color: #C8C8C8;
+}
 
-    .our-projects span {
-        font-weight: bold;
-        color: #333;
-    }
+.our-projects span {
+    font-weight: bold;
+    color: #333;
+}
 
-    .our-projects img {
-        display: inline-block;
-        padding-bottom: 2rem;
-        max-width: 50%;
-    }
+.our-projects img {
+    display: inline-block;
+    padding-bottom: 2rem;
+    max-width: 50%;
+}
 
-    .our-projects__flex {
-        display: flex;
-        align-content: flex-start;
-        justify-content: center; 
-    }
+.our-projects__flex {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center; 
+}
 
-    .our-projects__text {
-        align-self: flex-start;
-        justify-self: center;
-        width: 50%;
-        padding: 2rem;
-    }
+.our-projects__text {
+    align-self: flex-start;
+    justify-self: center;
+    width: 50%;
+    padding: 2rem;
+}
 
-    .our-projects__text p {
-        font-size: 1.2rem;
-        color: #000;
-        padding-top: 1rem;
-        padding-bottom: 4rem;
-    }
+.our-projects__text p {
+    font-size: 1.2rem;
+    color: #000;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
 
-    .our-projects__text h2 {
-        font-size: 3rem;
-        color: #C8C8C8;
-    }
+.our-projects__text h2 {
+    font-size: 3rem;
+    color: #C8C8C8;
+}
 /* Страница "Наши проекты" конец */
 
 
-    /*Галерея начало*/
-    .galary__imj {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 1.875rem;
-        padding: 3.75rem;
-    }
+/*Галерея начало*/
+.galary__imj {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1.875rem;
+    padding: 3.75rem;
+}
 
 
-    .galary__title {
-        padding: 135px;
-    }
+.galary__title {
+    padding: 135px;
+}
 
-    .hr {
-        padding: 1.937rem 0 1.937rem 0;
-    }
-    /* Галерея конец */
-    /* Сертификаты начало */
-    
-    /* Паркинг начало */
+.hr {
+    padding: 1.937rem 0 1.937rem 0;
+}
+/* Галерея конец */
+/* Сертификаты начало */
 
-    .parking__start-pic,
-    .parking__end-pic {
-        display: block;
-        text-align: center;
-        padding: 2.5rem;
-    }
+/* Паркинг начало */
 
+.parking__start-pic,
+.parking__end-pic {
+    display: block;
+    text-align: center;
+    padding: 2.5rem;
+}
 
+.parking__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
-    .parking__flex {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    .parking__flex p {
-        max-width: 38%;
-    }
-
-
-
-    /* Паркинг конец */
+.parking__flex p {
+    max-width: 38%;
+}
+/* Паркинг конец */
+/* contacts begin */
+.contact_infornation{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact_infornation__contacts{
+    width: 490px;
+    margin-left: 150px;
+}
+.contact_infornation__contacts__contact-img{
+    width: 481px;
+    height: 128px;
+    margin: 100px 0 50px 0;
+}
+.contact_infornation__contacts__digital_project{
+    font-size: 30px;
+    font-weight: bold;
+}
+.contact_infornation__contacts__town{
+    display: block;
+    color: rgb(51, 51, 51);
+    margin-bottom: 43px;
+}
+.contact_infornation__contacts__phone{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.contact_infornation__contacts__e-mail{
+    display: block;
+    margin-bottom: 32px;
+    font-size: 16px;
+    color: rgb(51, 51, 51);
+}
+.contact_infornation__contacts__btn{
+    width: 221px;
+    height: 71px;
+    background-color: #2C2C2C;;
+    color: white; 
+    font-size: 12px;
+    letter-spacing: 3px;
+    border: none;
+    text-align: center;
+    border-radius: 0%;
+    margin-bottom: 25px;
+}
+/* contacts end */
