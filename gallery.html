@@ -12,10 +12,11 @@
 <style>
     .galary__imj {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
         grid-template-rows: 1fr 1fr;
         gap: 1.875rem;
         padding: 3.75rem;
+        margin: 0 0 0 150px;
 
 
     }
@@ -23,6 +24,7 @@
 
     .galary__title {
         padding: 135px;
+        margin: 0 0 0 150px;
     }
 
     .hr {
@@ -48,12 +50,12 @@
         margin-right: 5px;
     }
 
-    .navbar_links a:hover{
+    .navbar_links a:hover {
         color: black;
         text-decoration: underline overline;
     }
 
-    .navbar_links a.active{
+    .navbar_links a.active {
         text-decoration: underline overline;
     }
 
@@ -179,7 +181,7 @@
 
     <!--Галерея начало-->
     <section>
-        <img class="galary__title" src="assets/img/Frame 12 (1).png" alt="">
+        <img class="galary__title" src="assets/img/Frame 12 (1).svg" alt="">
         <hr width="1170px" color="#F2F2F2">
         <div class="galary__imj">
 
