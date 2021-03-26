@@ -92,34 +92,25 @@
         </section>
     </div>
     <!--Форма начало-->
-
-    <body>
-        <section>
-            <div class="form__container">
-
-
-
-                <div class="form__message">
-                    <div class="form__title">Связаться с нами</div>
-                    <input class="form__message_text" type="text" name="firstname" size="20" placeholder="Имя*" /><br />
-                    <input class="form__message_text" type="text" name="firstname"
-                        placeholder="Номер телефона*" /><br />
-                    <input class="form__message_text" type="text" name="firstname" placeholder="E-mail*" /><br />
-                    <input class="form__message_text" type="text" name="firstname"
-                        placeholder="Интересующий товар/услуга" /><br />
-                    <textarea class="textarea" rows="5" cols="21" placeholder="Сообщение"></textarea><br />
-                    <div class="form__text"><b>Отправляя заявку Вы соглашаетесь с политикой<br />
-                            конфиденциальности</b></div>
-                    <button type="button" class="btn-lg btn-dark p-3">Отправить<img src="assets/img/projects__arrow.svg"
-                            alt=""></button>
-                </div>
-                <div class="form__img">
-                    <img src="assets/img/form__img.png" alt="#">
-                </div>
+        <span class="form__title">Связаться с нами</span>
+        <div class="form__container">
+            <div class="form__message">
+                <form>
+                    <input type="text" name="name" placeholder="Имя"><br>
+                    <input type="text" name="phone" placeholder="Номер телефона*" ><br>
+                    <input type="text" name="e-mail" placeholder="E-mail*"><br>
+                    <input type="text" name="staf" placeholder="Интересующий товар/услуга"><br>
+                    <textarea  name="subject" placeholder="Сообщение*"></textarea>
+                </form>
+                <p>
+                    Отправляя заявку Вы соглашаетесь с политикой<br />
+                    конфиденциальности
+                </p>
+                <button type="button" class="form__message__btn">ОТПРАВИТЬ<img class="arrow-2-right-long" src="assets/img/arrow-3-right-long.png" alt=""></button>
+                
             </div>
-            </div>
-            </div>
-        </section>
+            <img class="form__img" src="assets/img/form__img.png" alt="#">
+        </div>
         <!--Форма конец-->
         <!-- Футер начало -->
         <footer>
