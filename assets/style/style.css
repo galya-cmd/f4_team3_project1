@@ -624,22 +624,36 @@ body {
 /*Галерея начало*/
 .galary__imj {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     grid-template-rows: 1fr 1fr;
     gap: 1.875rem;
     padding: 3.75rem;
+    margin: 0 0 0 10%;
 }
 
 
 .galary__title {
-    padding: 135px;
+    margin: 63px 0 42px 10%;
 }
 
 .hr {
     padding: 1.937rem 0 1.937rem 0;
 }
 /* Галерея конец */
+
+
 /* Сертификаты начало */
+.certificate__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    margin: 0 0 0 10%;
+}
+
+.certificate__title {
+    margin: 63px 0 42px 10%;
+}
+
+/*Сертификаты конец*/
 
 /* Паркинг начало */
 
@@ -784,6 +798,10 @@ body {
         width: 430px;
         height: 250px;
     }
+    .certificate__title img{
+        width: 390px;
+        margin-top: 100px;
+    }
 }
 @media all and (max-width: 530px){
     .nurtown-img{
@@ -798,6 +816,9 @@ body {
         left: 10%;
     }
     .about_company_text__info{
+        width: 350px;
+    }
+    .galary__title{
         width: 350px;
     }
 }
@@ -837,6 +858,9 @@ body {
     }
     .form__title{
         font-size: 2.5em;
+    }
+    .galary__title{
+        margin-top: 100px;
     }
     
 }
@@ -883,6 +907,16 @@ body {
     .form__message__btn{
         width: 310px;
         height: 50px;
+    }
+    .certificate__title img{
+        width: 290px;
+        
+    }
+    .galary__title{
+        width: 300px;
+    }
+    .galary__imj{
+        margin-left: 5%;
     }
 }
 
