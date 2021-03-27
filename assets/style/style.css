@@ -175,19 +175,15 @@
         margin-left: 0;
         margin-right: 0;
     }
-
-
     .goals__title {
         text-align: center;
     }
-
     .goals__flex {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
     }
-
     .goals__one {
         max-width: 100%;
         padding-bottom: 6rem;
@@ -229,6 +225,10 @@
 
 .projects__flex1 img {
     padding-bottom: 1.875rem;
+}
+
+.projects__flex1 img,
+.projects__flex2 img {
     width: 100%;
 }
 
@@ -236,6 +236,8 @@
     gap: 1.875rem;
     padding-bottom: 3rem;
 }
+
+/* Оформление первой картинки */
 
 .projects__container {
     position: relative;
@@ -286,6 +288,39 @@
 
 .projects__btn__position {
 text-align: right;
+}
+
+/* Оформление первой картинки конец */
+
+@media all and (max-width: 760px) {
+    .projects__title {
+        text-align: center;
+    }
+
+    .projects__flex1,
+    .projects__flex2 {
+        flex-direction: column-reverse;
+        gap: 0;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .projects__flex1 img {
+        padding: 0;
+    }
+
+    .projects img {
+        padding-bottom: 2rem;
+    }
+
+    .projects__btn__position > button > img {
+        display: none;
+    }
+
+    .projects__btn__position {
+        text-align: center;
+    }
+
 }
 
 /* "Основные задачи" и "Наши проекты" конец  */
