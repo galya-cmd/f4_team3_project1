@@ -523,22 +523,38 @@ footer {
 /*Галерея начало*/
 .galary__imj {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     grid-template-rows: 1fr 1fr;
     gap: 1.875rem;
     padding: 3.75rem;
+    margin: 0 0 0 150px;
 }
 
 
 .galary__title {
     padding: 135px;
+    margin: 0 0 0 150px;
 }
 
 .hr {
     padding: 1.937rem 0 1.937rem 0;
 }
 /* Галерея конец */
+
+
 /* Сертификаты начало */
+.certificate__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    margin: 0 0 0 150px;
+}
+
+.certificate__title {
+    padding: 135px;
+    margin: 0 0 0 150px;
+}
+
+/*Сертификаты конец*/
 
 /* Паркинг начало */
 
