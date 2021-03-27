@@ -1,3 +1,8 @@
+body {
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
 /* navbar */
 .navbar {
     display: flex;
@@ -162,61 +167,6 @@
     max-width: 40%;
 }
 
-@media all and (max-width: 1443px){
-    .goals__one {
-        max-width: 50%;
-    }
-    
-    .goals__two {
-        max-width: 50%;
-    }
-
-}
-
-@media all and (max-width: 1100px){
-    .content-grow {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .goals__title {
-        text-align: center;
-    }
-    .goals__flex {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-    }
-    .goals__one {
-        max-width: 100%;
-        padding-bottom: 6rem;
-    }
-    
-    .goals__two {
-        max-width: 100%;
-    }
-
-}
-
-@media all and (max-width: 600px) {
-    .goals__title {
-        text-align: center;
-    }
-    .goals__one,
-    .goals__two {
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .goals__one p,
-    .goals__two p {
-        max-width: 100%;
-        font-size: 1.2rem;
-    }
-}
-
-
 .projects__flex1,
 .projects__flex2{
     display: flex;
@@ -240,40 +190,6 @@
     padding-bottom: 3rem;
 }
 
-/* Оформление первой картинки */
-
-.projects__container {
-    position: relative;
-    width: 100%;
-}
-
-.projects__container__img-title {
-    position: absolute;
-    width: 60%;
-    top: 23%;
-    left: 19%;
-    color: #FFFFFF; 
-    font-weight: bold;
-    font-size: 4rem;
-    text-align: left;
-}
-
-.projects__container__img-btn {
-    position: absolute;
-    top: 71%;
-    left: 19%;
-    color: #FFFFFF; 
-    text-align: center;
-    background-color: transparent;
-    border: 0;
-}
-
-.projects__container__img-btn img {
-    max-width: 15%;
-    position: absolute;
-    top: 40%;
-    left: 99%;
-}
 
 .projects__btn {
     width: 221px;
@@ -291,39 +207,6 @@
 
 .projects__btn__position {
 text-align: right;
-}
-
-/* Оформление первой картинки конец */
-
-@media all and (max-width: 760px) {
-    .projects__title {
-        text-align: center;
-    }
-
-    .projects__flex1,
-    .projects__flex2 {
-        flex-direction: column-reverse;
-        gap: 0;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .projects__flex1 img {
-        padding: 0;
-    }
-
-    .projects img {
-        padding-bottom: 2rem;
-    }
-
-    .projects__btn__position > button > img {
-        display: none;
-    }
-
-    .projects__btn__position {
-        text-align: center;
-    }
-
 }
 
 /* "Основные задачи" и "Наши проекты" конец  */
@@ -459,42 +342,9 @@ footer {
     padding-top: 12px; 
 }
 
-@media all and (max-width: 850px){
-    .footer-flex {
-        height: auto;
-        flex-direction: column;
-        text-align: center; 
-        justify-content: flex-start;
-    }
-
-    .footer-flex__item1 {
-        order: 4;
-        padding-top: 3rem;
-        align-self: center;
-    }
-
-    .footer-flex__item2 {
-        order: 2;
-        align-self: center;
-    }
-
-    .footer-flex__item3 {
-        order: 3;
-        width: 100vw;
-        align-self: center;
-    }
-
-    .footer-flex__item4 {
-        align-self: center;
-    }
-}
-
 /* Футер конец */
 
 /* Страница "Наши проекты" начало */
-body {
-    box-sizing: border-box;
-}
 
     .content-grow {
         margin-left: 10%;
@@ -506,12 +356,12 @@ body {
     padding-top: 3rem;
     padding-bottom: 2rem;
     width: auto;
-    height: 215px;
+    height: 200px;
     }
 
     .our-projects__img img {
         display: inline-block;
-        max-width: 80vw;
+        max-width: 80vw; 
     }
 
     .our-projects__flex {
@@ -561,104 +411,8 @@ body {
         margin-bottom: 25px; 
     }
 
-    
-
     .our-projects__btn:active {
         color: grey;
-    }
-
-    @media all and (max-width: 1300px) {
-        .content-grow {
-            margin-left: 5%;
-            margin-right: 5%;
-        }
-
-        .our-projects__h1 img {
-            margin-bottom: 3rem;
-        }
-
-        .our-projects {
-            margin-left: 2rem;
-        }
-
-        .our-projects__flex {
-            flex-direction: column;
-        }
-
-        .our-projects__img {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .our-projects__text {
-            align-self: center;
-            width: 70%;
-        }
-
-        .our-projects__h1 {
-            margin-top: 3rem;
-            text-align: center;
-        }
-
-        .our-projects__btn {
-            margin-top: 0;
-        }
-
-        .our-projects__btn-space {
-            margin-bottom: 0;
-        }
-    }
-
-    @media all and (max-width: 600px) {
-
-        .our-projects {
-            margin-left: 0;
-        }
-        
-        .content-grow {
-            margin-left: 0%;
-            margin-right: 0%;
-        }
-
-        .our-projects__text {
-            align-self: flex-start;
-            justify-self: flex-start;
-            width: 100%;
-            padding-left: 0;
-            }
-
-            .our-projects {
-                margin-left: 0;
-            }
-
-            .our-projects__text {
-                align-self: center;
-                width: 80%;
-            }
-        
-            .our-projects__text h2 {
-            font-size: 1.9rem;
-            width: 80vw;
-            text-align: center;
-            }
-
-            .our-projects__text p {
-            font-size: 1rem;
-            max-width: 100%;
-            text-align: center;
-            padding-bottom: 3px;
-            }
-
-            .our-projects__btn a
-            {
-            margin-bottom: 20px;
-            margin-left: 5.5rem; 
-            }
-
-            .our-projects__btn > a > img {
-                display: none;
-            }
-
     }
 /* Страница "Наши проекты" конец */
 
@@ -699,14 +453,14 @@ body {
 
 /* Паркинг начало */
 
-.content-grow {
+.parking {
     margin-left: 10%;
     margin-right: 10%;
 }
 
-.content-grow img {
+.parking img {
     width: 100%;
-}
+} 
 
 .parking__h1 img {
     text-align: left;
@@ -729,6 +483,7 @@ body {
     align-items: center;
     margin-top: 30px;
     margin-bottom: 30px;
+    flex-grow: 1;
 }
 
 .parking__flex img {
@@ -742,49 +497,7 @@ body {
     padding-left: 50px;
 }
 
-@media all and (max-width: 1170px) {
-
-    .content-grow {
-        margin-right: 1rem;
-        margin-left: 1rem;
-    }
-
-    .parking__flex {
-        flex-direction: column-reverse;
-    }
-
-    .parking__flex p {
-        max-width: 95%;
-        padding-left: 0;
-        padding-top: 1rem;
-    }
-
-    .parking__flex {
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-
-    .parking__start-pic img,
-    .parking__end-pic img {
-    padding-bottom: 0;
-    }
-}
-
-@media all and (max-width: 690px) {
-    .parking__h1 img {
-        text-align: center;
-        max-width: 100%;
-        padding-top: 7rem;
-        padding-bottom: 1rem; 
-    }
-}
-
-
-
-
 /* Паркинг конец */
-
-
 
 
 /* contacts begin */
@@ -842,7 +555,15 @@ body {
 }
 /* contacts end */
 
+/* Медиазапросы начало */
+
 @media all and (max-width: 1444px){
+    .goals__one {
+        max-width: 50%;
+    }
+    .goals__two {
+        max-width: 50%;
+    }
     .contacts_map{
         margin-left: 10%;
     }
@@ -854,12 +575,92 @@ body {
     .about_company_text{
         margin-left: 10%;
     }
-
+    .content-grow {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .our-projects__h1 img {
+        margin-bottom: 3rem;
+    }
+    .our-projects {
+        margin-left: 2rem;
+    }
+    .our-projects__flex {
+        flex-direction: column;
+    }
+    .our-projects__img {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .our-projects__text {
+        align-self: center;
+        width: 70%;
+    }
+    .our-projects__h1 {
+        margin-top: 3rem;
+        text-align: center;
+    }
+    .our-projects__btn {
+        margin-top: 0;
+    }
+    .our-projects__btn-space {
+        margin-bottom: 0;
+    }
 }
+
+@media all and (max-width: 1170px) {
+    .parking {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .parking__flex {
+        flex-direction: column-reverse;
+    }
+
+    .parking__flex p {
+        max-width: 95%;
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+
+    .parking__flex {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .parking__start-pic img,
+    .parking__end-pic img {
+    padding-bottom: 0;
+    }
+}
+
 @media all and (max-width: 1100px){
     .navbar_links{
         margin-right: 5%;
         width: 500px;
+    }
+    .content-grow {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .goals__title,
+    .projects__title,
+    .projects__btn__position {
+        text-align: center;
+    }
+    .goals__flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .goals__one {
+        max-width: 100%;
+        padding-bottom: 6rem;
+    }
+    .goals__two {
+        max-width: 100%;
     }
 }
 @media all and (max-width: 850px){
@@ -876,11 +677,76 @@ body {
         width: 600px;
         height: 300px;
     }
+    .footer-flex {
+        height: auto;
+        flex-direction: column;
+        text-align: center; 
+        justify-content: flex-start;
+    }
+    .footer-flex__item1 {
+        order: 4;
+        padding-top: 3rem;
+        align-self: center;
+    }
+    .footer-flex__item2 {
+        order: 2;
+        align-self: center;
+    }
+    .footer-flex__item3 {
+        order: 3;
+        width: 100vw;
+        align-self: center;
+    }
+    .footer-flex__item4 {
+        align-self: center;
+    }
 }
+
+@media all and (max-width: 760px) {
+    .projects__flex1,
+    .projects__flex2 {
+        flex-direction: column-reverse;
+        gap: 0;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .projects__flex1 img {
+        padding: 0;
+    }
+    .projects img {
+        padding-bottom: 2rem;
+    }
+    .projects__btn__position > button > img {
+        display: none;
+    }
+}
+
+@media all and (max-width: 690px) {
+    .parking__h1 img {
+        text-align: center;
+        max-width: 100%;
+        padding-top: 7rem;
+        padding-bottom: 1rem; 
+    }
+}
+
 @media all and (max-width: 600px){
     .navbar_links{
         margin: 50px 0 0 40px;
     }
+    .goals__one,
+    .goals__two {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .goals__one p,
+    .goals__two p {
+        max-width: 100%;
+        font-size: 1.2rem;
+    }
+
     .contacts_map{
         width: 500px;
         height: 330px;
@@ -892,6 +758,53 @@ body {
         width: 430px;
         height: 250px;
     }
+    .our-projects {
+        margin-left: 0;
+    }
+        
+    .content-grow {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .our-projects__text {
+        align-self: flex-start;
+        justify-self: flex-start;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .our-projects {
+        margin-left: 0;
+    }
+
+    .our-projects__text {
+        align-self: center;
+        width: 80%;
+    }
+        
+    .our-projects__text h2 {
+        font-size: 1.9rem;
+        width: 80vw;
+        text-align: center;
+    }
+
+    .our-projects__text p {
+        font-size: 1rem;
+        max-width: 100%;
+        text-align: center;
+        padding-bottom: 3px;
+    }
+
+    .our-projects__btn a {
+        margin-bottom: 20px;
+        margin-left: 5.5rem; 
+    }
+
+    .our-projects__btn > a > img {
+        display: none;
+    }
+
     .certificate__title img{
         width: 390px;
         margin-top: 100px;
@@ -977,7 +890,9 @@ body {
     .about_company{
         margin-top: 50px;
     }
-    .about_company_text__title{
+    .about_company_text__title,
+    .goals h2,
+    .projects h2 {
         font-size: 40px;
     }
     .about_company_text__info{
