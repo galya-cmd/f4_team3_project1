@@ -495,25 +495,33 @@ footer {
         margin-right: 10%;
     }
 
-    .our-projects__h1 {
+    .our-projects__h1 img {
     text-align: left;
-    max-width: 53%;
     padding-top: 3rem;
     padding-bottom: 2rem;
+    width: auto;
+    height: 200px;
     }
-
-    .our-projects img {
+/* 
+    .our-projects__flex img {
     display: block; 
     padding-bottom: 60px; 
-    max-width: 50%;
-    max-height: 420px;
+    width: 100%;
+    max-height: 435px;
+    max-width: 670px; 
+    } */
+
+    .our-projects__img img {
+        display: inline-block;
+        max-width: 80vw;
+        padding-bottom: 1rem;
     }
 
     .our-projects__flex {
     display: flex;
     align-content: flex-start;
     justify-content: flex-start; 
-    }
+    } 
 
     .our-projects__text {
     align-self: flex-start;
@@ -552,6 +560,58 @@ footer {
 
     .our-projects__btn:active {
         color: grey;
+    }
+
+    @media all and (max-width: 1300px) {
+        
+
+
+    }
+
+    @media all and (max-width: 600px) {
+        .our-projects__h1 {
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .content-grow {
+            margin: 0%;
+        }
+
+        .our-projects__flex {
+            flex-direction: column;
+        }
+
+        .our-projects__img {
+            text-align: center;
+        }
+
+        .our-projects__text {
+            align-self: flex-start;
+            justify-self: flex-start;
+            width: 100%;
+            padding-left: 0;
+            }
+        
+        .our-projects__text h2 {
+            font-size: 2rem;
+            max-width: 98vw;
+            text-align: center;
+        }
+
+        .our-projects__text p {
+            font-size: 1rem;
+            max-width: 100%;
+            text-align: center;
+            padding: 1.2rem;
+            padding-bottom: 1rem;
+        }
+
+        .our-projects__btn a {
+            margin-left: 65%;
+            margin-bottom: 20px;
+        }
+
     }
 /* Страница "Наши проекты" конец */
 
