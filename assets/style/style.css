@@ -518,8 +518,8 @@ body {
     display: flex;
     align-content: flex-start;
     justify-content: flex-start; 
-    margin-bottom: 10px;
     background-color: #FBFBFB;
+    margin-bottom: 60px;
     } 
 
     .our-projects__text {
