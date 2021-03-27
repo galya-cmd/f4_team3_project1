@@ -456,56 +456,55 @@ footer {
 /* Футер конец */
 
 /* Страница "Наши проекты" начало */
-    .our-projects h1 {
-        width: 30%;
-        font-size: 4rem;
-        padding-bottom: 2rem;
-        padding-top: 3rem;
-        color: #C8C8C8;
-    }
 
     .content-grow {
         margin-left: 10%;
         margin-right: 10%;
     }
 
-    .our-projects span {
-        font-weight: bold;
-        color: #333;
+    .our-projects__h1 {
+    text-align: left;
+    max-width: 53%;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
     }
 
-.our-projects img {
-    display: inline-block;
-    padding-bottom: 2rem;
+    .our-projects img {
+    display: block; 
+    padding-bottom: 60px; 
     max-width: 50%;
-}
+    max-height: 420px;
+    }
 
-.our-projects__flex {
+    .our-projects__flex {
     display: flex;
     align-content: flex-start;
-    justify-content: center; 
-}
+    justify-content: flex-start; 
+    }
 
-.our-projects__text {
+    .our-projects__text {
     align-self: flex-start;
-    justify-self: center;
+    justify-self: flex-start;
     width: 50%;
-    padding: 2rem;
-}
+    padding-left: 30px;
+    height: fit-content;
+    }
 
-.our-projects__text p {
-    font-size: 1.2rem;
+    .our-projects__text p {
+    font-size: 1.1rem;
     color: #000;
     padding-top: 1rem;
     padding-bottom: 4rem;
-}
+    }
 
     .our-projects__text h2 {
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: #C8C8C8;
     }
 
-    .our-projects__btn {
+    .our-projects__btn,
+    .our-projects__btn a
+    {
         width: 221px;
         height: 71px;
         background-color: white;
@@ -516,6 +515,10 @@ footer {
         text-align: center;
         border-radius: 0%;
         margin-bottom: 25px;
+    }
+
+    .our-projects__btn:active {
+        color: grey;
     }
 /* Страница "Наши проекты" конец */
 
@@ -542,23 +545,42 @@ footer {
 
 /* Паркинг начало */
 
-.parking__start-pic,
-.parking__end-pic {
+.parking__h1 img {
+    text-align: left;
+    max-width: 60%;
+    padding-top: 3rem;
+    padding-bottom: 2rem; 
+}
+
+.parking__start-pic img,
+.parking__end-pic img {
     display: block;
-    text-align: center;
-    padding: 2.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .parking__flex {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.parking__flex img {
+    max-height: 420px;
+    max-width: 430px;
+    justify-self: flex-start;
 }
 
 .parking__flex p {
-    max-width: 38%;
+    max-width: 60%;
+    padding-left: 50px;
 }
 /* Паркинг конец */
+
+
+
+
 /* contacts begin */
 .contact_information{
     width: 100%;
