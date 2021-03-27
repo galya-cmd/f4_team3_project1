@@ -699,9 +699,19 @@ body {
 
 /* Паркинг начало */
 
+.content-grow {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.content-grow img {
+    width: 100%;
+}
+
 .parking__h1 img {
     text-align: left;
-    max-width: 60%;
+    width: auto;
+    height: 200px;
     padding-top: 3rem;
     padding-bottom: 2rem; 
 }
@@ -709,6 +719,7 @@ body {
 .parking__start-pic img,
 .parking__end-pic img {
     display: block;
+    text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -730,6 +741,47 @@ body {
     max-width: 60%;
     padding-left: 50px;
 }
+
+@media all and (max-width: 1170px) {
+
+    .content-grow {
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .parking__flex {
+        flex-direction: column-reverse;
+    }
+
+    .parking__flex p {
+        max-width: 95%;
+        padding-left: 0;
+        padding-top: 1rem;
+    }
+
+    .parking__flex {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .parking__start-pic img,
+    .parking__end-pic img {
+    padding-bottom: 0;
+    }
+}
+
+@media all and (max-width: 690px) {
+    .parking__h1 img {
+        text-align: center;
+        max-width: 100%;
+        padding-top: 7rem;
+        padding-bottom: 1rem; 
+    }
+}
+
+
+
+
 /* Паркинг конец */
 
 
