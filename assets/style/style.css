@@ -9,7 +9,7 @@
     overflow: hidden;
     justify-content: space-around;
     width: 700px;
-    margin-right: 185px;
+    margin-right: 12.5%;
 }
 .navbar_links a{
     color: black;
@@ -37,7 +37,7 @@
 }
 .left{
     margin-left: 10%;
-    padding: 300px 0 0 0;
+    margin-top: 300px;
     flex: 20%
 } 
 .nurtown-text{
@@ -47,7 +47,7 @@
 }
 .container {
     position: relative;
-    width: 100%;
+    /* width: 100%; */
     flex: 47%
 }
 
@@ -65,6 +65,7 @@
     text-align: center;
     border-radius: 0%;
 }
+
 /* ----------- */
 /* about company */
 .about_company{
@@ -76,7 +77,7 @@
 }
 .about_company_img{
     display: flex;
-    padding: 25px 25px 25px 100px;
+    padding: 25px 25px 25px 8%;
     flex-wrap: wrap;
 }
 .about_company_img_1{
@@ -90,12 +91,14 @@
     margin-top: 40px;
     height: 345px;
 }
+
 .about_company_text__title{
     font-size: 60px;
     padding-top: 1.5rem;
     color: #BDBDBD;
 }
 .about_company_text__info{
+    display: flex;
     width: 400px;
     height: 200px;
     font-size: 16px;
@@ -336,7 +339,7 @@ text-align: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4em;
     color: #8D8D8D;   
-    margin: 0 0 22px 150px;
+    margin: 0 0 22px 10%;
 }
 .form__message{
     margin-right: 30px;
@@ -728,3 +731,156 @@ footer {
     margin: 40px 0 0 2%;
 }
 /* contacts end */
+
+@media all and (max-width: 1444px){
+    .contacts_map{
+        margin-left: 10%;
+    }
+}
+@media all and (max-width: 1305px){
+    .left{
+        margin-top: 100px;
+    }
+    .about_company_text{
+        margin-left: 10%;
+    }
+
+}
+@media all and (max-width: 1100px){
+    .navbar_links{
+        margin-right: 5%;
+        width: 500px;
+    }
+}
+@media all and (max-width: 850px){
+    .nurtown-img{
+        width: 500px;
+    }
+    .container .btn{
+        top: 87%;
+    }
+    .rectangle_9{
+        margin-top: 25px;
+    }
+    .form__img{
+        width: 600px;
+        height: 300px;
+    }
+}
+@media all and (max-width: 600px){
+    .navbar_links{
+        margin: 50px 0 0 40px;
+    }
+    .contacts_map{
+        width: 500px;
+        height: 330px;
+    }
+    .form__title{
+        font-size: 3em;
+    }
+    .form__img{
+        width: 430px;
+        height: 250px;
+    }
+}
+@media all and (max-width: 530px){
+    .nurtown-img{
+        width: 400px;
+        margin-left: 8%;
+    }
+    .container .btn{
+        width: 150px;
+        height: 50px;
+        font-size: 10px;
+        top: 89%;
+        left: 10%;
+    }
+    .about_company_text__info{
+        width: 350px;
+    }
+}
+@media all and (max-width: 450px){
+    .navbar_links{
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 30px;
+        margin-left: 8%;
+    }
+    .logo-img{
+        margin-top: 10px;
+        margin-left: 6%;
+    }
+    .navbar{
+        margin-bottom: 50px;
+    }
+    .contacts_map{
+        width: 300px;
+        height: 150px;
+        margin-top: 0;
+    }
+    .contact_infornation__contacts__contact-img{
+        width: 350px;
+        height: 90px;
+    }
+    .form__message input{
+        width: 26em;
+        height: 2.5em;
+    }
+    .form__message textarea{
+        width: 26em;
+    }
+    .form__img{
+        width: 350px;
+        height: 170px;
+    }
+    .form__title{
+        font-size: 2.5em;
+    }
+    
+}
+@media all and (max-width: 376px){
+    .contact_infornation__contacts__contact-img{
+        width: 300px;
+        height: 75px;
+    }
+    .nurtown-text{
+        width: 300px;
+        height: 100px;
+    }
+    .nurtown-img{
+        width: 290px;
+    }
+    .container .btn{
+        top: 84%;
+        left: 11%;
+    }
+    .about_company{
+        margin-top: 50px;
+    }
+    .about_company_text__title{
+        font-size: 40px;
+    }
+    .about_company_text__info{
+        width: 270px;
+        margin-bottom: 90px;
+    }
+    .form__message input{
+        width: 22em;
+        height: 2.5em;
+    }
+    .form__message textarea{
+        width: 22em;
+    }
+    .form__img{
+        width: 310px;
+        height: 150px;
+    }
+    .form__title{
+        font-size: 2.2em;
+    }
+    .form__message__btn{
+        width: 310px;
+        height: 50px;
+    }
+}
+
