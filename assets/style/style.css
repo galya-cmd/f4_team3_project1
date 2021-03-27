@@ -506,7 +506,7 @@ body {
     padding-top: 3rem;
     padding-bottom: 2rem;
     width: auto;
-    height: 200px;
+    height: 215px;
     }
 
     .our-projects__img img {
@@ -568,19 +568,17 @@ body {
     }
 
     @media all and (max-width: 1300px) {
-        
-
-
-    }
-
-    @media all and (max-width: 600px) {
-        .our-projects__h1 {
-            margin-top: 3rem;
-            text-align: center;
+        .content-grow {
+            margin-left: 5%;
+            margin-right: 5%;
         }
 
-        .content-grow {
-            margin: 0%;
+        .our-projects__h1 img {
+            margin-bottom: 3rem;
+        }
+
+        .our-projects {
+            margin-left: 2rem;
         }
 
         .our-projects__flex {
@@ -589,6 +587,37 @@ body {
 
         .our-projects__img {
             text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .our-projects__text {
+            align-self: center;
+            width: 70%;
+        }
+
+        .our-projects__h1 {
+            margin-top: 3rem;
+            text-align: center;
+        }
+
+        .our-projects__btn {
+            margin-top: 0;
+        }
+
+        .our-projects__btn-space {
+            margin-bottom: 0;
+        }
+    }
+
+    @media all and (max-width: 600px) {
+
+        .our-projects {
+            margin-left: 0;
+        }
+        
+        .content-grow {
+            margin-left: 0%;
+            margin-right: 0%;
         }
 
         .our-projects__text {
@@ -597,25 +626,38 @@ body {
             width: 100%;
             padding-left: 0;
             }
-        
-        .our-projects__text h2 {
-            font-size: 2rem;
-            max-width: 98vw;
-            text-align: center;
-        }
 
-        .our-projects__text p {
+            .our-projects {
+                margin-left: 0;
+            }
+
+            .our-projects__text {
+                align-self: center;
+                width: 80%;
+            }
+        
+            .our-projects__text h2 {
+            font-size: 1.9rem;
+            width: 80vw;
+            text-align: center;
+            }
+
+            .our-projects__text p {
             font-size: 1rem;
             max-width: 100%;
             text-align: center;
-            padding: 1.2rem;
-            padding-bottom: 1rem;
-        }
+            padding-bottom: 3px;
+            }
 
-        .our-projects__btn a {
-            margin-left: 65%;
+            .our-projects__btn a
+            {
             margin-bottom: 20px;
-        }
+            margin-left: 5.5rem; 
+            }
+
+            .our-projects__btn > a > img {
+                display: none;
+            }
 
     }
 /* Страница "Наши проекты" конец */
