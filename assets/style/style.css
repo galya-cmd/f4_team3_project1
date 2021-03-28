@@ -144,7 +144,7 @@ body {
 
 .goals h2,
 .projects h2 {
-    font-size: 4rem;
+    font-size: 60px;
 }
 
 .goals p {
@@ -194,7 +194,7 @@ body {
 .projects__btn {
     width: 221px;
     height: 71px;
-    background-color: #2C2C2C;;
+    background-color: #2C2C2C;
     color: white; 
     font-size: 12px;
     letter-spacing: 3px;
@@ -220,8 +220,8 @@ text-align: right;
 }
 .form__title {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4em;
-    color: #8D8D8D;   
+    font-size: 60px;
+    color: #BDBDBD;   
     margin: 0 0 22px 10%;
 }
 .form__message{
